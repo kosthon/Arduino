@@ -1,1 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2020-09-25T01:49:51.176Z" agent="5.0 (Windows)" version="13.7.5" etag="qomvaPzhNqh4sSK9tRYK" type="github"><diagram id="A26aIaMKe4SdZcCCRBEv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-25T01:55:09.178Z" agent="5.0 (Windows)" etag="w-KhdB0B1KAg5UgnTM7I" version="13.7.5" type="github">
+  <diagram id="A26aIaMKe4SdZcCCRBEv" name="Page-1">
+    <mxGraphModel dx="1718" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1FMHLj4sgHna_qV8E3IX-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1FMHLj4sgHna_qV8E3IX-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-1" value="Setup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-3" value="Incializar 2 leds y 1 pulsador" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1FMHLj4sgHna_qV8E3IX-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-5" value="Loop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1FMHLj4sgHna_qV8E3IX-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="350.28571428571433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1FMHLj4sgHna_qV8E3IX-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-7" value="Pulsador sin presionar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1FMHLj4sgHna_qV8E3IX-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-9" value="Led 1 encendido" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-11" value="Led 2 apagado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1FMHLj4sgHna_qV8E3IX-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1FMHLj4sgHna_qV8E3IX-13" target="1FMHLj4sgHna_qV8E3IX-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="460" />
+              <mxPoint x="180" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-13" value="Pulsador&amp;nbsp; presionado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1FMHLj4sgHna_qV8E3IX-15" target="1FMHLj4sgHna_qV8E3IX-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-15" value="Led 1 apagado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FMHLj4sgHna_qV8E3IX-16" value="Led 2 encendido" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
