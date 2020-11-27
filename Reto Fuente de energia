@@ -1,0 +1,53 @@
+void setup(){
+  Serial.begin(9600);
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(4, OUTPUT);
+}
+
+void encenderLed(int pin){
+	digitalWrite(pin, HIGH);
+}
+
+void apagarLed(int pin){
+  digitalWrite(pin, LOW);
+}
+
+void loop(){
+  
+  apagarLed(13);
+  apagarLed(12);
+  apagarLed(11);
+  apagarLed(10);
+  apagarLed(9);
+  apagarLed(8);
+  apagarLed(7);
+  apagarLed(6);
+  apagarLed(5);
+  apagarLed(4);
+  
+  int lecturAnaloga = analogRead(A0);
+  encerderLeds(lecturAnaloga);
+  
+}
+
+void encerderLeds(int valorSenal){
+  int valorBase = 102.4;
+  int cantidadLeds = valorSenal/valorBase;
+  int loop = ceil(cantidadLeds);
+  Serial.print(loop);
+  int pinInicio = 13;
+  
+  for(int i=0;i<=loop;i++){
+    encenderLed(pinInicio);
+    pinInicio--;
+  }
+  
+}
